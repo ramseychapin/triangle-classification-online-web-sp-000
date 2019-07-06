@@ -16,7 +16,7 @@ class Triangle
   end
 
   def is_triangle?
-    sorted_triangle = self.all_sides.sort { |a,b| a <=> b }
+    sorted_triangle = self.all_sides.sort
     biggest_side = sorted_triangle.pop
     biggest_side < sorted_triangle.sum
   end
