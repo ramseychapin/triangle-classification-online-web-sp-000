@@ -26,7 +26,7 @@ class Triangle
 
   def triangle_type
     @side_counter = self.all_sides.uniq.size
-      
+
 
   end
 
