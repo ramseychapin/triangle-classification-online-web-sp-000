@@ -28,8 +28,10 @@ class Triangle
         raise TriangleError
     elsif (equilateral?)
       :equilateral
-    else
-      puts "nope!"
+    elsif (isosceles?)
+
+    elsif (scalene?)
+
     end
   end
 
