@@ -1,7 +1,7 @@
 require 'pry'
 
 class Triangle
-  attr_accessor :all_sides, :side_match_counter
+  attr_accessor :all_sides
 
   def initialize(side1, side2, side3)
     @all_sides = []
