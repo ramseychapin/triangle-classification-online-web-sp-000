@@ -24,6 +24,7 @@ class Triangle
   end
 
   def traingle_type
+    
 
   end
 
