@@ -36,7 +36,7 @@ class Triangle
       :equilateral
     elsif (@side_match_counter == 2)
       :isosceles
-    elsif (scalene?)
+    else
       :scalene
     end
   end
