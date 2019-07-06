@@ -31,7 +31,6 @@ class Triangle
 
   end
 
-
   def equliateral?
 
   end
