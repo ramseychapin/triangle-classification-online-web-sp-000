@@ -32,13 +32,13 @@ class Triangle
     else
       triangle_type
         if (@side_match_counter == 1)
-        :equilateral
-      elsif (@side_match_counter == 2)
-        :isosceles
-      else
-        :scalene
+          :equilateral
+        elsif (@side_match_counter == 2)
+          :isosceles
+        else
+          :scalene
+        end
       end
-    end
   end
 
   class TriangleError < StandardError
