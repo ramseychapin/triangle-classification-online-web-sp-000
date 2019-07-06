@@ -31,7 +31,7 @@ class Triangle
     elsif (isosceles?)
       :isosceles
     elsif (scalene?)
-
+      :scalene
     end
   end
 
