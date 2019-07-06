@@ -11,6 +11,7 @@ class Triangle
     @all_sides << @side1
     @all_sides << @side2
     @all_sides << @side3
+    @side_counter = 0
   end
 
   def positive?
