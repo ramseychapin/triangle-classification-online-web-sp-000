@@ -29,7 +29,7 @@ class Triangle
     elsif (equilateral?)
       :equilateral
     elsif (isosceles?)
-
+      :isosceles
     elsif (scalene?)
 
     end
