@@ -32,7 +32,7 @@ class Triangle
   def kind
     if(positive? == false || is_triangle? == false)
         raise TriangleError
-    elsif (@side_match_counter == 3)
+    elsif (@side_match_counter == 1)
       :equilateral
     elsif (isosceles?)
       :isosceles
