@@ -23,6 +23,10 @@ class Triangle
     biggest_side > sorted_triangle.sum
   end
 
+  def equliateral?
+
+  end
+
   def kind
     if(positive? == false || is_triangle? == false)
         raise TriangleError
