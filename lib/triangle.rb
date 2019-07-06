@@ -23,8 +23,8 @@ class Triangle
     biggest_side > sorted_triangle.sum
   end
 
-  def traingle_type
-    
+  def triangle_type
+
 
   end
 
