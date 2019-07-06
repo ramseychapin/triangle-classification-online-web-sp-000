@@ -23,7 +23,7 @@ class Triangle
     biggest_side > sorted_triangle.sum
   end
 
-  def equliateral?
+  def traingle_type
 
   end
 
