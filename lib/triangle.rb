@@ -34,7 +34,7 @@ class Triangle
         raise TriangleError
     elsif (@side_match_counter == 1)
       :equilateral
-    elsif (isosceles?)
+    elsif (@side_match_counter == 2)
       :isosceles
     elsif (scalene?)
       :scalene
