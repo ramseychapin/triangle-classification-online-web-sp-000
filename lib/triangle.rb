@@ -25,7 +25,7 @@ class Triangle
   end
 
   def triangle_type
-    self.all_sides.each do |side|
+    @side_counter = self.all_sides.uniq.size
       
 
   end
