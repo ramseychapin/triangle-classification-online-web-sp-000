@@ -21,7 +21,7 @@ class Triangle
   def is_triangle?
     sorted_triangle = self.all_sides.sort { |a,b| a <=> b }
     biggest_side = sorted_triangle.pop
-    biggest_side > sorted_triangle.sum
+    biggest_side < sorted_triangle.sum
   end
 
   def triangle_type
