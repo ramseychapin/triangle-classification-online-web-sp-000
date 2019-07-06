@@ -29,7 +29,8 @@ class Triangle
   def kind
     if(positive? == false || is_triangle? == false)
         raise TriangleError
-    elsif (@side_match_counter == 1)
+    else
+      traingle_typeif (@side_match_counter == 1)
       :equilateral
     elsif (@side_match_counter == 2)
       :isosceles
