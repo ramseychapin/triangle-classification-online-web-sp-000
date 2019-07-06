@@ -15,7 +15,6 @@ class Triangle
 
   def positive?
     self.all_sides.all? {|side| side > 0}
-    binding.pry
   end
 
   def is_triangle?
