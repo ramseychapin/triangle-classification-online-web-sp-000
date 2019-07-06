@@ -22,7 +22,7 @@ class Triangle
   end
 
   def triangle_type
-    self.side_match_counter = self.all_sides.uniq.size
+    side_match_counter = self.all_sides.uniq.size
   end
 
 
