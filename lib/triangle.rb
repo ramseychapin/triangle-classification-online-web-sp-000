@@ -30,15 +30,14 @@ class Triangle
     if(positive? == false || is_triangle? == false)
         raise TriangleError
     else
-      triangle_type
-        if (@side_match_counter == 1)
-          :equilateral
-        elsif (@side_match_counter == 2)
-          :isosceles
-        else
-          :scalene
-        end
-      end
+      if (@side_match_counter == 1)
+        :equilateral
+      elsif (@side_match_counter == 2)
+        :isosceles
+      else
+        :scalene
+      
+    end
   end
 
   class TriangleError < StandardError
