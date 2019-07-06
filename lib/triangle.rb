@@ -26,7 +26,7 @@ class Triangle
   def kind
     if(positive? == false || is_triangle? == false)
         raise TriangleError
-    elsif self.all_sides.all? { |side| side == @all_sides[0]}
+    elsif (equilateral?)
       :equilateral
     else
       puts "nope!"
