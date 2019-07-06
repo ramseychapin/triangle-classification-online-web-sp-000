@@ -26,8 +26,6 @@ class Triangle
 
   def triangle_type
     @side_match_counter = self.all_sides.uniq.size
-
-
   end
 
 
