@@ -27,6 +27,16 @@ class Triangle
 
   end
 
+  def equliateral?
+
+  end
+
+
+  def equliateral?
+
+  end
+
+
   def kind
     if(positive? == false || is_triangle? == false)
         raise TriangleError
