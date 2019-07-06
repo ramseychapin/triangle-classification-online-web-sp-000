@@ -25,7 +25,8 @@ class Triangle
   end
 
   def triangle_type
-    
+    self.all_sides.each do |side|
+      
 
   end
 
